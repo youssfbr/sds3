@@ -1,9 +1,17 @@
-function App() {
+import DataTable from "components/DataTable";
+import Footer from "components/Footer";
+import NavBar from "components/NavBar";
+
+const App = () => {
   return (
-    <div className="text-primary">
-      <h1>Olá mundo</h1>     
-    </div>
+    <>
+      <NavBar />
+      <div className="container">        
+        <DataTable />
+      </div>
+      <Footer />
+    </>
   );
-}
+};
 
 export default App;
