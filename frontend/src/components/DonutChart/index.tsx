@@ -1,5 +1,5 @@
 import axios from "axios";
-import { BASE_URL } from "pages/requests";
+import { BASE_URL } from "utils/requests";
 import { useEffect, useState } from "react";
 import Chart from "react-apexcharts";
 import { SaleSum } from "types/sale";
